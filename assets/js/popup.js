@@ -1,1 +1,1 @@
-console.log("Connected");
+// JavaScript Document
