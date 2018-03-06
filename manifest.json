@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Task Management Tool",
+  "description": "This extension allows the user to manage tasks by creating lists and adding tasks.",
+  "version": "1.0",
+
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+
+  "browser_action": {
+    "default_icon": "assets/images/icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
