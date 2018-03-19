@@ -13,5 +13,8 @@ function addList(){
     //Create a new div element
     var newList = document.createElement("div");
 
+    //Add html code to the new div element
+    newList.innerHTML = "<div class='listContainer'><h1 class='listTitle'>" + addListInput.value + "</h1><input class='task-input' type='text' placeholder='Add a task...'></div>";
+
   }
 }
