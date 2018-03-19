@@ -3,3 +3,11 @@ body{
   background-color: rgb(20,20,20);
   color: rgb(200,200,200);
 }
+
+.main-heading{
+  margin: 5px;
+  padding-bottom: 5px;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-bottom: 0.5px solid rgb(50,50,50);
+}
