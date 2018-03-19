@@ -35,3 +35,37 @@ body{
 .add-list-input::placeholder{
   color: rgb(150,150,150);
 }
+
+.list-container{
+  float: left;
+  width: 250px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3px;  
+  color: rgb(20,20,20);
+  background-color: rgb(150,150,150);
+}
+
+.list-title{
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.task-input{
+  width: 100%;
+  margin: 10px 0 0 0;
+  border: none;
+  outline: none;
+  color: rgb(20,20,20);
+  background-color: rgb(150,150,150);
+}
+
+.task-input::placeholder{
+  color: rgb(100,100,100);
+}
+
+.task-input:focus::placeholder{
+  color: rgb(20,20,20);
+}
