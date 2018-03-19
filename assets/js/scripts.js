@@ -9,6 +9,9 @@ function addList(){
 
   //If the user presses the enter key run the following code
   if(event.which === 13){
+    
+    //Create a new div element
+    var newList = document.createElement("div");
 
   }
 }
