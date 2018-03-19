@@ -15,6 +15,12 @@ function addList(){
 
     //Add html code to the new div element
     newList.innerHTML = "<div class='listContainer'><h1 class='listTitle'>" + addListInput.value + "</h1><input class='task-input' type='text' placeholder='Add a task...'></div>";
+    
+    //Add the new div element to the webpage
+    mainContainer.appendChild(newList);
+    
+    //Remove the text in addListInput
+    addListInput.value = "";
 
   }
 }
