@@ -11,3 +11,27 @@ body{
   font-weight: 600;
   border-bottom: 0.5px solid rgb(50,50,50);
 }
+
+.add-list-input{
+  width: 250px;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font-size: 0.9em;
+  background-color: rgb(40,40,40);
+}
+
+.add-list-input:focus {
+  color: rgb(20,20,20);
+  background-color: rgb(150,150,150);
+}
+
+.add-list-input:focus::placeholder{
+  color: rgb(50,50,50);
+}
+
+.add-list-input::placeholder{
+  color: rgb(150,150,150);
+}
